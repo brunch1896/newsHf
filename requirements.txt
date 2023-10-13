@@ -1,2 +1,3 @@
-openai
-langchain
+bs4
+requests
+clipborad
