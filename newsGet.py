@@ -26,7 +26,7 @@ content = content[:2200]
 
 
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-headers = {"Authorization": "Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}
+headers = {"Authorization": "Bearer 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"}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
